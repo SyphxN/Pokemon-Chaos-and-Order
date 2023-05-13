@@ -35,7 +35,7 @@ public class Pokemon {
         this.hp = baseHP;
         this.imageURL = new URL(url);
     }
-
+    //cloning constructor
     public Pokemon(Pokemon clone){
         this.name = clone.name;
         this.level = clone.level;
