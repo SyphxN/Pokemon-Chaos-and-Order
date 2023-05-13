@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a23ebd-f03a-4657-9efe-3e78d3d4578c" name="Changes" comment="All 151 pokemon have been instantiated but without their moves or images">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bulbasaur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Effect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemon.java" afterDir="false" />
-    </list>
+    <list default="true" id="e7a23ebd-f03a-4657-9efe-3e78d3d4578c" name="Changes" comment="All pokemon were given their Image URLs and the declarations and initiations were seperated to throw url exceptions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684003592784</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="All pokemon were given their Image URLs and the declarations and initiations were seperated to throw url exceptions">
+      <created>1684007221134</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684007221134</updated>
+    </task>
+    <task id="LOCAL-00009" summary="All pokemon were given their Image URLs and the declarations and initiations were seperated to throw url exceptions">
+      <created>1684007284358</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684007284358</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up frame work and basic GUI" />
     <MESSAGE value="All 151 pokemon have been instantiated but without their moves or images" />
-    <option name="LAST_COMMIT_MESSAGE" value="All 151 pokemon have been instantiated but without their moves or images" />
+    <MESSAGE value="All pokemon were given their Image URLs and the declarations and initiations were seperated to throw url exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="All pokemon were given their Image URLs and the declarations and initiations were seperated to throw url exceptions" />
   </component>
 </project>
