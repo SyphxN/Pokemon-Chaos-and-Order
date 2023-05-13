@@ -19,7 +19,7 @@ public class Pokemon {
     private Status currentStatus;
     private URL imageURL;
 
-
+    //constructor with maximum parameters
     public Pokemon(String name, int level, int[] ivs, int baseHP, int baseAttack, int baseDefense, int baseSpecialAttack, int baseSpecialDefense, int baseSpeed, Type[] types, Move[] moves, String url) throws MalformedURLException {
         this.name = name;
         this.level = level;
