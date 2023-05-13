@@ -30,6 +30,20 @@ public class Pokemon {
         this.hp = baseHP;
     }
 
+    public Pokemon(Pokemon clone){
+        this.name = clone.name;
+        this.level = clone.level;
+        this.ivs = clone.ivs;
+        this.baseHP = clone.baseHP;
+        this.baseAttack = clone.baseAttack;
+        this.baseDefense = clone.baseDefense;
+        this.baseSpecialAttack = clone.baseSpecialAttack;
+        this.baseSpecialDefense = clone.baseSpecialDefense;
+        this.baseSpeed = clone.baseSpeed;
+        this.types = clone.types;
+        this.moves = clone.moves;
+        this.hp = clone.baseHP;
+    }
     // methods
     public void attack(String move) {
         System.out.println(this.name + " uses " + move + "!");

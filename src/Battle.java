@@ -30,11 +30,11 @@ public class Battle extends JFrame implements ActionListener{
         fightButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                if (Main.squirtle.getHp()>0) {
+                if (Main.Squirtle.getHp()>0) {
                     System.out.println("Charmander Used Ember:");
-                    Main.ember.attack(Main.charmander, Main.squirtle);
+                    //Main.ember.attack(Main.Charmander, Main.Squirtle);
 
-                    System.out.println("Squirtle HP: " + Main.squirtle.getHp());
+                    System.out.println("Squirtle HP: " + Main.Squirtle.getHp());
                 }else{
                     System.out.println("Squirtle Has Fainted");
                 }
