@@ -1,3 +1,6 @@
+import java.net.MalformedURLException;
+import java.net.URL;
+
 public class Pokemon {
     // instance variables
     private String name;
@@ -13,9 +16,11 @@ public class Pokemon {
     private Type[] types;
     private Move[] moves;
     private int hp;
+    private Status currentStatus;
+    private URL imageURL;
 
 
-    public Pokemon(String name, int level, int[] ivs, int baseHP, int baseAttack, int baseDefense, int baseSpecialAttack, int baseSpecialDefense, int baseSpeed, Type[] types, Move[] moves) {
+    public Pokemon(String name, int level, int[] ivs, int baseHP, int baseAttack, int baseDefense, int baseSpecialAttack, int baseSpecialDefense, int baseSpeed, Type[] types, Move[] moves, String url) throws MalformedURLException {
         this.name = name;
         this.level = level;
         this.ivs = ivs;
@@ -28,6 +33,7 @@ public class Pokemon {
         this.types = types;
         this.moves = moves;
         this.hp = baseHP;
+        this.imageURL = new URL(url);
     }
 
     public Pokemon(Pokemon clone){
@@ -43,6 +49,7 @@ public class Pokemon {
         this.types = clone.types;
         this.moves = clone.moves;
         this.hp = clone.baseHP;
+        this.imageURL = clone.imageURL;
     }
     // methods
     public void attack(String move) {
