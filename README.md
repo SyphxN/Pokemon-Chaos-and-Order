@@ -1,2 +1,2 @@
-# Pokemon-Chaos-and-Order
+# Pokemon-Chaos-and-Order - Incomplete
 Pokémon battle simulator
